@@ -1,0 +1,92 @@
+.text-overlay1 {
+    width: 70%;
+    top: 10%;
+    left: 1%;
+    right: 37%;
+    z-index: 2;
+    background-color: #f9e2d6;
+    font-size: 2vw;
+    padding: 20px;
+  }
+  .img3 {
+    position: relative;
+    width: 400px;
+    z-index: 1;
+    margin-right: 20px;
+  }
+  .text-overlay2{
+    margin-top: -260px;
+    font-size: 1.5vw;
+    width: 50%;
+  }
+  /* Large Devices */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .text-overlay1 {
+      font-size: 1.8vw;
+      width: 60%;
+      top: 10%;
+    }
+    .img3 {
+      width: 380px;
+    }
+    .text-overlay2{
+      margin-top: -260px;
+      font-size: 1.5vw;
+    }
+  }
+  /* Medium Devices */
+  @media (min-width: 7688px) and (max-width: 991.98px) {
+    .text-overlay1 {
+      font-size: 1.5vw;
+      width: 56%;
+      top: 10%;
+      padding: 1rem;
+    }
+    .img3 {
+      width: 300px;
+    }
+    .text-overlay2{
+      margin-top: -230px;
+      font-size: 1.4vw;
+    }
+    
+  }
+  /* Small Devices */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .text-overlay1 {
+      font-size: 1.3vw;
+      width: 50%;
+      top: 10%;
+    }
+    .img3 {
+      width: 250px;
+    }
+    .text-overlay2{
+      margin-top: -200px;
+      font-size: 1.2vw;
+      width: 45%;
+    }
+    .button2{
+      font-size: 1.5vw;
+    }
+  }
+  
+/* Extra Small Devices */
+@media (max-width: 575.98px) {
+    .text-overlay1 {
+      font-size: 1.3vw;
+      width: 52%;
+      top: 10%;
+    }
+    .img3 {
+      width: 200px;
+    }
+    .text-overlay2{
+      margin-top: -180px;
+      font-size: 1.2vw;
+      width: 45%;
+    }
+    .button2{
+      font-size: 1.3vw;
+    }
+  }  
